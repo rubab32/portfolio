@@ -11,15 +11,12 @@ minimal_mistakes_skin: "mint"  # Switched to "dark" skin for a professional look
 locale: "en-US"
 title: "Rubab's Portfolio"
 title_separator: "-"
-subtitle: "Portfolio showcasing my projects, experience, and skills"
+subtitle: ""
 name: "Rubab Ajmal"  # Replace with your full name
 description: "A portfolio highlighting my engineering experience, projects, and technical skills."
 url: "https://rubab32.github.io"  # Replace with your GitHub Pages URL
 baseurl: "/portfolio"  # Specify the repo name if not serving from root
 repository: "https://github.com/rubab32/portfolio"  # Replace with your GitHub username/repo
-teaser: "/assets/images/teaser-image.png"  # Add a teaser image in assets if desired
-logo: "/assets/images/logo.png"  # Add a logo in the assets directory if available
-masthead_title: "My Portfolio"
 breadcrumbs: true
 words_per_minute: 200
 enable_copy_code_button: true
