@@ -134,11 +134,10 @@
   }
 
   img {
-    max-width: 110px;
-    /* Change shape from circle to vertical rectangle */
-    border-radius: 0;  /* Remove the circular border */
-    width: 80px; /* Set fixed width for vertical rectangle */
-    height: 120px; /* Set fixed height for vertical rectangle */
+    width: 80px; /* Set the width for the vertical rectangle */
+    height: 120px; /* Set the height for the vertical rectangle */
+    border-radius: 0; /* Ensure the image is not oval or circular */
+    object-fit: cover; /* Ensures the image fits within the set dimensions */
 
     @include breakpoint($large) {
       padding: 5px;
@@ -146,6 +145,7 @@
     }
   }
 }
+
 
 
 .author__content {
