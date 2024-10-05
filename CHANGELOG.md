@@ -1211,18 +1211,18 @@
 
 ### Enhancements
 
-- Improve line numbered code block styling when using `{% highlight linenos %}` tag. [#513](https://github.com/mmistakes/minimal-mistakes/issues/513)
+- Improve line numbered code block styling when using tag. [#513](https://github.com/mmistakes/minimal-mistakes/issues/513)
 - Add English fallback to "Follow" button label. [#496](https://github.com/mmistakes/minimal-mistakes/pull/496)
 
 ### Bug Fixes
 
-- Fix Firefox alignment issues with code blocks generated with the `{% highlight %}` tag. [#512](https://github.com/mmistakes/minimal-mistakes/issues/512)
+- Fix Firefox alignment issues with code blocks generated with the tag. [#512](https://github.com/mmistakes/minimal-mistakes/issues/512)
 
 ### Maintenance
 
 - Clarified comment for `author.stackoverflow` value used in author sidebar links. [#487](https://github.com/mmistakes/minimal-mistakes/pull/487)
 - Add list of localized text strings. [#488](https://github.com/mmistakes/minimal-mistakes/pull/488)
-- Add `{% highlight %}` code block examples to demo site.
+- Add code block examples to demo site.
 - Add documentation for using custom sidebar navigation menus. [#476](https://github.com/mmistakes/minimal-mistakes/issues/476)
 
 ## [3.4.4](https://github.com/mmistakes/minimal-mistakes/releases/tag/3.4.4)
@@ -1245,7 +1245,7 @@
 ### Enhancements
 
 - Make ["honeypot" `input`](https://github.com/mmistakes/minimal-mistakes/commit/06a8249a69a37dddda7e2a5bfbe32056c1a9a607) in Staticman comment form less obvious to spam bots
-- Add padding to `.highlight` code blocks to better [align `overflow` scrollbar](https://github.com/mmistakes/minimal-mistakes/commit/e4abec0a6f7f8cff72505ca0754615df294fd5b3) to the bottom.
+- Add padding to  code blocks to better [align `overflow` scrollbar](https://github.com/mmistakes/minimal-mistakes/commit/e4abec0a6f7f8cff72505ca0754615df294fd5b3) to the bottom.
 - Add additional image options for Twitter card social sharing meta tags. [#466](https://github.com/mmistakes/minimal-mistakes/pull/466)
 - Add structured data markup for Staticman comments. [#458](https://github.com/mmistakes/minimal-mistakes/issues/458)
 
