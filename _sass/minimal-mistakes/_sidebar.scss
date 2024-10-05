@@ -135,7 +135,10 @@
 
   img {
     max-width: 110px;
-    border-radius: 50%;
+    /* Change shape from circle to vertical rectangle */
+    border-radius: 0;  /* Remove the circular border */
+    width: 80px; /* Set fixed width for vertical rectangle */
+    height: 120px; /* Set fixed height for vertical rectangle */
 
     @include breakpoint($large) {
       padding: 5px;
@@ -143,6 +146,7 @@
     }
   }
 }
+
 
 .author__content {
   display: table-cell;
