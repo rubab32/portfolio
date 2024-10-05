@@ -44,7 +44,7 @@ social:
 author:
   name: "Rubab Ajmal"
   avatar: "/assets/images/avatar.jpg"  # Replace with the path to your avatar image
-  bio: "I am a Robotics Engineer specializing in Manipulators and SLAM."
+  bio: "I am a Robotics Engineer specializing in Robotic Manipulators and SLAM."
   location: "Rochester, New York"
   email: "rubab.ajmal@gmail.com"
   links:
