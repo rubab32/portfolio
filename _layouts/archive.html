@@ -3,13 +3,13 @@ layout: default
 ---
 
 <style>
+  /* Adjust navigation bar style */
   nav {
-    float: right;
-    width: 200px; /* Adjust as needed */
+    margin-top: 20px; /* Optional, adjust as needed */
   }
 
   #main {
-    margin-right: 220px; /* Leave some space for the right-side nav */
+    margin-left: 220px; /* Leave space for left-side nav */
   }
 
   nav ul {
@@ -26,9 +26,10 @@ layout: default
   }
 </style>
 
-<nav>
+<!-- Move the navigation to the left -->
+<nav style="float: right; width: 200px;">
   <ul>
-    <li><a href="/cv/">CV</a></li>
+    <li><a href="/assets/pdf/Rubab_Ajmal.pdf" target="_blank">CV (PDF)</a></li>
     <li><a href="/projects/">Projects</a></li>
     <li><a href="/study-notes/">Study Notes</a></li>
     <li><a href="/know-me/">Know Me</a></li>
@@ -47,13 +48,7 @@ layout: default
       <h1 id="page-title" class="page__title">{{ page.title }}</h1>
     {% endunless %}
 
-    <!-- Add PDF link for CV -->
-    <div class="cv-section">
-      <h2>My CV</h2>
-      <a href="/assets/Rubab_Ajmal.pdf" target="_blank" rel="noopener noreferrer">
-        Download/View CV (PDF)
-      </a>
-    </div>
+    <!-- Removed "My CV" section -->
     
     <!-- This is where we are removing recent posts and replacing with tabs -->
   </div>
