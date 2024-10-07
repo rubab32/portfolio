@@ -3,4 +3,4 @@ main:
   - title: "Quick-Start Guide"
     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "Projects"
-    url: "{{ site.baseurl }}/projects/"
+    url: https://rubab32.github.io/projects/
