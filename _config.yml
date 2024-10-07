@@ -14,14 +14,15 @@ title_separator: "-"
 subtitle: ""
 name: "Rubab Ajmal"  # Replace with your full name
 description: "A portfolio highlighting my engineering experience, projects, and technical skills."
-url: "https://rubab32.github.io"  # Replace with your GitHub Pages URL
-baseurl: "/portfolio"  # Specify the repo name if not serving from root
+url: "https://rubab32.github.io"
+baseurl: "/portfolio"
 repository: "https://github.com/rubab32/portfolio"  # Replace with your GitHub username/repo
 breadcrumbs: true
 words_per_minute: 200
 enable_copy_code_button: true
 copyright: "Rubab Ajmal"  # Replace with your name for copyright
 copyright_url: "https://rubab32.github.io"  # Replace with your website URL
+permalink: pretty
 
 # Comments settings (optional)
 comments:
